@@ -60,7 +60,8 @@ class ElementSponsor extends BaseElement
      */
     private static $many_many_extraFields = [
         'Sponsors' => [
-            'Sort' => 'Int',
+            // would be sort but issues arise when parent and child both have the same sort field names.
+            'SponsorSort' => 'Int',
         ],
     ];
 
@@ -105,7 +106,7 @@ class ElementSponsor extends BaseElement
                     $config = $fields->dataFieldByName('Sponsors')->getConfig();
                     $config->removeComponentsByType(GridFieldAddExistingAutocompleter::class);
                     $config->addComponent(new GridFieldAddExistingSearchButton());
-                    $config->addComponent(new GridFieldOrderableRows());
+                    $config->addComponent(new GridFieldOrderableRows('SponsorSort'));
                 }
             }
         );
