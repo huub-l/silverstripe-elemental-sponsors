@@ -119,7 +119,7 @@ class ElementSponsor extends BaseElement
      */
     public function getSponsorsList()
     {
-        $list = $this->Sponsors();
+        $list = $this->Sponsors()->sort('SponsorSort');
 
         if ($this->Limit > 0) {
             $list = $list->limit($this->Limit);
