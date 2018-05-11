@@ -24,20 +24,28 @@ Sponsors element for the [SilverStripe Elemental](https://github.com/dnadesign/s
 
 ## Usage
 
-Elemental Sponsors Block will add the following to your site:
-- Sponsors
+A block that allows you to display multiple sponsors. Each sponsor can have a Title, Link, Image and Description. By default, the layout only shows the Image or Title with a link wrapped around it (if it's added).
+
+An example enhancement would be to hookup a carousel to scroll through the sponsors instead of having multiple rows.
+
+## Screen Shots
+
+#### Front End sample of a Sponsors Element
+![Front End sample of a Sponsors Element](./readme-images/sponsors-block-sample.jpg)
+
+#### CMS - Sponsors Element Main Tab
+![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms.jpg)
+
+#### CMS - Sponsors Element - Sponsors List
+![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms-sponsors-list.jpg)
+
+#### CMS - Sponsors Element - Sponsor Add/Edit
+![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms-sponsor.jpg)
+
 
 ## Getting more elements
 
-Other elemental modules by Dynamic:
-
-* SilverStripe Elemental Blocks
-	* [Packagist](https://packagist.org/packages/dynamic/silverstripe-elemental-blocks)
-	* [GitHub](https://github.com/dynamic/silverstripe-elemental-blocks)
-* [SilverStripe Elemental Accordion](https://github.com/dynamic/silverstripe-elemental-accordion-block)  
-* [SilverStripe Elemental Flexslider](https://github.com/dynamic/silverstripe-elemental-flexslider)  
-* [SilverStripe Elemental Blog](https://github.com/dynamic/silverstripe-elemental-blog)  
-* [SilverStripe Elemental Testimonials](https://github.com/dynamic/silverstripe-elemental-testimonials) 
+See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#getting-more-elements)
 
 ## Configuration
 
