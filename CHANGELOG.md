@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.0-alpha2](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0-alpha2) (2022-11-22)
+* REFACTOR Sponsor - require title, do not require image by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/21
+* FEATURE default Bootstrap template by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/22
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/3.0.0-alpha1...3.0.0-alpha2
+
 ## [3.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0-alpha1) (2022-11-22)
 * CI GitHub Action by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/17
 * CI remove old configs by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/18
