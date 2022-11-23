@@ -43,7 +43,7 @@ An example enhancement would be to hookup a carousel to scroll through the spons
 
 ## Getting more elements
 
-See [Elemental modules by Dynamic](https://github.com/dynamic?q=elemental&type=all&language=&sort=)
+See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?q=elemental&type=all&language=&sort=)
 
 ## Configuration
 
