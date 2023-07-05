@@ -1,5 +1,11 @@
 # Change Log
 
+## [4.0.0-beta1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-beta1) (2023-07-05)
+
+* REFACTOR Silverstripe Link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/25
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/4.0.0-alpha1...4.0.0-beta1
+
 ## [4.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-alpha1) (2023-06-12)
 
 * REFACTOR Elemental 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/24
