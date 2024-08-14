@@ -24,9 +24,9 @@ Sponsors element for the [SilverStripe Elemental](https://github.com/dnadesign/s
 
 See [License](LICENSE.md)
 
-## Upgrading from version 2
+## Upgrading from version 4
 
-Elemental Sponsors drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
+This module drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
 
 ## Usage
 
