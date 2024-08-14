@@ -1,5 +1,44 @@
 # Change Log
 
+## [4.0.0-beta1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-beta1) (2023-07-05)
+
+* REFACTOR Silverstripe Link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/25
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/4.0.0-alpha1...4.0.0-beta1
+
+## [4.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-alpha1) (2023-06-12)
+
+* REFACTOR Elemental 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/24
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/3.0.0...4.0.0-alpha1
+
+## [3.0.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0) (2022-12-14)
+
+* CI GitHub Action by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/17
+* CI remove old configs by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/18
+* REFACTOR require elemental baseobject 3 by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/19
+* README update by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/20
+* REFACTOR Sponsor - require title, do not require image by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/21
+* FEATURE default Bootstrap template by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/22
+* REFACTOR update README, workflow by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/23
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/2.0.1...3.0.0
+
+## [3.0.0-alpha2](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0-alpha2) (2022-11-22)
+* REFACTOR Sponsor - require title, do not require image by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/21
+* FEATURE default Bootstrap template by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/22
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/3.0.0-alpha1...3.0.0-alpha2
+
+## [3.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0-alpha1) (2022-11-22)
+* CI GitHub Action by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/17
+* CI remove old configs by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/18
+* REFACTOR require elemental baseobject 3 by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/19
+* README update by @jsirish in https://github.com/dynamic/silverstripe-elemental-sponsors/pull/20
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-sponsors/compare/2.0.1...3.0.0-alpha1
+
 ## [2.0.1](https://github.com/dynamic/silverstripe-elemental-sponsors/tree/2.0.1) (2019-03-20)
 [Full Changelog](https://github.com/dynamic/silverstripe-elemental-sponsors/compare/2.0.0...2.0.1)
 

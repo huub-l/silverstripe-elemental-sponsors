@@ -2,10 +2,7 @@
 
 Sponsors element for the [SilverStripe Elemental](https://github.com/dnadesign/silverstripe-elemental) module
 
-[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-sponsors.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-sponsors)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-sponsors/build-status/master)
+[![CI](https://github.com/dynamic/silverstripe-elemental-sponsors/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-sponsors/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-sponsors/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-sponsors)
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-sponsors/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-sponsors)
@@ -15,12 +12,21 @@ Sponsors element for the [SilverStripe Elemental](https://github.com/dnadesign/s
 
 ## Requirements
 
-* silverstripe/recipe-cms: ^4@dev
-* dnadesign/silverstripe-elemental: ^4@dev
+* dnadesign/silverstripe-elemental ^5
+* dynamic/silverstripe-elemental-baseobject ^5
+* symbiote/silverstripe-gridfieldextensions ^4
 
 ## Installation
 
 `composer require dynamic/silverstripe-elemental-sponsors`
+
+## License
+
+See [License](LICENSE.md)
+
+## Upgrading from version 4
+
+This module drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
 
 ## Usage
 
@@ -31,22 +37,43 @@ An example enhancement would be to hookup a carousel to scroll through the spons
 ## Screen Shots
 
 #### Front End sample of a Sponsors Element
-![Front End sample of a Sponsors Element](./readme-images/sponsors-block-sample.jpg)
+![Front End sample of a Sponsors Element](./docs/en/_images/sponsors-block-sample.jpg)
 
 #### CMS - Sponsors Element Main Tab
-![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms.jpg)
+![CMS - Sponsors Element Main Tab](./docs/en/_images/sponsors-block-cms.jpg)
 
 #### CMS - Sponsors Element - Sponsors List
-![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms-sponsors-list.jpg)
+![CMS - Sponsors Element Main Tab](./docs/en/_images/sponsors-block-cms-sponsors-list.jpg)
 
 #### CMS - Sponsors Element - Sponsor Add/Edit
-![CMS - Sponsors Element Main Tab](./readme-images/sponsors-block-cms-sponsor.jpg)
+![CMS - Sponsors Element Main Tab](./docs/en/_images/sponsors-block-cms-sponsor.jpg)
 
 
 ## Getting more elements
 
-See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#getting-more-elements)
+See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?q=elemental&type=all&language=&sort=)
 
 ## Configuration
 
-See [SilverStripe Elemental Configuration](https://github.com/dnadesign/silverstripe-elemental#configuration)
+See [SilverStripe Elemental Configuration](https://github.com/silverstripe/silverstripe-elemental#configuration)
+
+## Maintainers
+
+*  [Dynamic](https://www.dynamicagency.com) (<dev@dynamicagency.com>)
+
+## Bugtracker
+Bugs are tracked in the issues section of this repository. Before submitting an issue please read over
+existing issues to ensure yours is unique.
+
+If the issue does look like a new bug:
+
+- Create a new issue
+- Describe the steps required to reproduce your issue, and the expected outcome. Unit tests, screenshots
+  and screencasts can help here.
+- Describe your environment as detailed as possible: SilverStripe version, Browser, PHP version,
+  Operating System, any installed SilverStripe modules.
+
+Please report security issues to the module maintainers directly. Please don't file security issues in the bugtracker.
+
+## Development and contribution
+If you would like to make contributions to the module please ensure you raise a pull request and discuss with the module maintainers.

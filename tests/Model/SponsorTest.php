@@ -32,13 +32,13 @@ class SponsorTest extends SapphireTest
      */
     public function testValidate()
     {
-        $sponsor = $this->objFromFixture(Sponsor::class, 'one');
+        $sponsor = $this->objFromFixture(Sponsor::class, 'three');
         $result = $sponsor->validate();
         $this->assertInstanceOf(ValidationResult::class, $result);
         $this->assertFalse($result->isValid());
         $this->assertContains([
-            'message' => 'A logo is required before you can save',
-            'fieldName' => '',
+            'message' => 'A title is required before you can save',
+            'fieldName' => null,
             'messageType' => 'error',
             'messageCast' => 'text',
 
